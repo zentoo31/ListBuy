@@ -1,0 +1,61 @@
+# Gradle y archivos generados (todos los módulos)
+.gradle/
+.kotlin/
+**/build/
+*.class
+
+# Configuración local del SDK
+local.properties
+
+# Android Studio / IntelliJ: archivos locales y generados
+*.iml
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/deploymentTargetDropDown.xml
+.idea/deploymentTargetSelector.xml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/shelf/
+.idea/**/dataSources.local.xml
+.idea/**/dataSources/
+.idea/httpRequests/
+
+# Compilación nativa
+.externalNativeBuild/
+.cxx/
+
+# Paquetes y capturas de depuración
+*.apk
+*.aab
+*.ap_
+*.dex
+captures/
+
+# Claves y configuración privada de firma
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+
+# Variables de entorno locales (se conservan plantillas)
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# Archivos temporales y del sistema operativo
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Mantener versionados gradlew, gradlew.bat y gradle/wrapper/

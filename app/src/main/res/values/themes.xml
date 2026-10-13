@@ -1,0 +1,17 @@
+<resources>
+    <style name="Theme.BuyList" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#216B50</item>
+        <item name="colorPrimaryVariant">#174D3A</item>
+        <item name="colorSecondary">#216B50</item>
+        <item name="android:fontFamily">@font/nunito</item>
+        <item name="fontFamily">@font/nunito</item>
+        <item name="shapeAppearanceSmallComponent">@style/Shape.ListBuy.Square</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">#F7F8F2</item>
+        <item name="android:navigationBarColor">#174D3A</item>
+    </style>
+    <style name="Shape.ListBuy.Square" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">0dp</item>
+    </style>
+</resources>
